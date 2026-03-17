@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iran War Monitor</title>
+
+  <!-- Bootstrap 5.3 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Leaflet 1.9 -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- Leaflet MarkerCluster -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="app-header">
+  <div class="container-fluid px-3 py-2 d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center gap-3">
+      <span class="threat-dot" id="headerThreatDot"></span>
+      <h1 class="mb-0 header-title">
+        <i class="bi bi-broadcast-pin me-2"></i>IRAN WAR MONITOR
+      </h1>
+      <span class="badge bg-secondary ms-2" id="headerThreatBadge">LOADING…</span>
+    </div>
+    <div class="d-flex align-items-center gap-3">
+      <span class="text-muted small" id="headerClock"></span>
+      <span class="text-muted small">UTC</span>
+    </div>
+  </div>
+</header>
+
+<!-- ===== TABS ===== -->
+<nav class="tab-nav">
+  <div class="container-fluid px-3">
+    <ul class="nav nav-tabs border-0" id="mainTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="map-tab" data-bs-toggle="tab" data-bs-target="#mapPanel"
+          type="button" role="tab">
+          <i class="bi bi-map me-1"></i>MAP
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="analysis-tab" data-bs-toggle="tab" data-bs-target="#analysisPanel"
+          type="button" role="tab">
+          <i class="bi bi-graph-up me-1"></i>ANALYSIS
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="news-tab" data-bs-toggle="tab" data-bs-target="#newsPanel"
+          type="button" role="tab">
+          <i class="bi bi-newspaper me-1"></i>NEWS FEED
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="strikes-tab" data-bs-toggle="tab"
+          data-bs-target="#strikesPanel" type="button" role="tab">
+          <i class="bi bi-crosshair me-1"></i>STRIKES
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== TAB CONTENT ===== -->
+<div class="tab-content flex-grow-1 overflow-hidden" id="mainTabContent">
+
+  <!-- ========== TAB 1: MAP ========== -->
+  <div class="tab-pane fade show active h-100" id="mapPanel" role="tabpanel">
+    <div class="map-layout">
+
+      <!-- Sidebar -->
+      <aside class="map-sidebar" id="mapSidebar">
+        <button class="sidebar-toggle" id="sidebarToggle" title="Collapse sidebar">&#8249;</button>
+        <div class="sidebar-section">
+          <div class="sidebar-title">LAYERS</div>
+          <div class="layer-list" id="layerControls">
+            <label class="layer-item">
+              <input type="checkbox" id="lyr-military" checked />
+              <span class="layer-icon military">⚔</span>
+              <span>Military Assets</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="lyr-strategic" checked />
+              <span class="layer-icon strategic">☢</span>
+              <span>Nuclear / Strategic</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="lyr-energy" checked />
+              <span class="layer-icon energy">⬡</span>
+              <span>Energy Infrastructure</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="lyr-maritime" checked />
+              <span class="layer-icon maritime">⚓</span>
+              <span>Ports &amp; Chokepoints</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="lyr-lifesupport" checked />
+              <span class="layer-icon lifesupport">+</span>
+              <span>Life Support</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="lyr-damage" checked />
+              <span class="layer-icon damage">✕</span>
+              <span>Damage / Strikes</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="lyr-pipeline" checked />
+              <span class="layer-icon pipeline">━</span>
+              <span>Pipelines</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="lyr-firms" checked />
+              <span class="layer-icon firms">🔥</span>
+              <span>Thermal Anomalies</span>
+            </label>
+            <label class="layer-item">
+              <input type="checkbox" id="lyr-opensky" checked />
+              <span class="layer-icon opensky">✈</span>
+              <span>Live Aircraft</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-title">DATA STATUS</div>
+          <div class="status-list" id="mapStatusList">
+            <div class="status-item">
+              <span class="status-label">Assets</span>
+              <span class="status-val" id="statusAssets">—</span>
+            </div>
+            <div class="status-item">
+              <span class="status-label">FIRMS</span>
+              <span class="status-val" id="statusFirms">—</span>
+            </div>
+            <div class="status-item">
+              <span class="status-label">OpenSky</span>
+              <span class="status-val" id="statusOpensky">—</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <button class="btn btn-refresh w-100" id="btnRefreshMap">
+            <i class="bi bi-arrow-clockwise me-1"></i>REFRESH MAP DATA
+          </button>
+          <div class="updated-at mt-1" id="mapUpdatedAt"></div>
+        </div>
+      </aside>
+
+      <!-- Map container -->
+      <div class="map-container" id="map"></div>
+    </div>
+  </div>
+
+  <!-- ========== TAB 2: ANALYSIS ========== -->
+  <div class="tab-pane fade h-100 overflow-auto" id="analysisPanel" role="tabpanel">
+    <div class="container-fluid px-3 py-3">
+
+      <!-- Top bar -->
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <h5 class="mb-0 text-light"><i class="bi bi-radar me-2"></i>Situational Analysis</h5>
+        <div class="d-flex align-items-center gap-2">
+          <span class="updated-at" id="analysisUpdatedAt"></span>
+          <button class="btn btn-refresh" id="btnRefreshAnalysis">
+            <i class="bi bi-arrow-clockwise me-1"></i>REFRESH
+          </button>
+        </div>
+      </div>
+
+      <div class="row g-3">
+
+        <!-- Card 1: Threat Indicator -->
+        <div class="col-12">
+          <div class="analysis-card">
+            <div class="card-header-bar">THREAT INDICATOR</div>
+            <div class="card-body-inner p-3">
+              <div class="threat-banner" id="threatBanner">
+                <div class="threat-level-text" id="threatLevelText">LOADING…</div>
+                <div class="threat-detail" id="threatDetail">Fetching GDELT tone data…</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Recent Developments -->
+        <div class="col-12 col-xl-6">
+          <div class="analysis-card h-100">
+            <div class="card-header-bar">RECENT DEVELOPMENTS <span class="badge bg-secondary ms-2" id="devCount">0</span></div>
+            <div class="card-body-inner p-0">
+              <div class="dev-list" id="devList">
+                <div class="dev-placeholder text-center py-4 text-muted">Loading events…</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Hot Spots -->
+        <div class="col-12 col-xl-6">
+          <div class="analysis-card h-100">
+            <div class="card-header-bar">THERMAL HOT SPOTS (FIRMS)</div>
+            <div class="card-body-inner p-0">
+              <div class="hotspot-list" id="hotspotList">
+                <div class="dev-placeholder text-center py-4 text-muted">Loading hotspot data…</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Event Trend Chart -->
+        <div class="col-12">
+          <div class="analysis-card">
+            <div class="card-header-bar">GDELT EVENT TREND — PAST 7 DAYS</div>
+            <div class="card-body-inner p-3">
+              <div class="chart-container">
+                <canvas id="trendChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== TAB 3: NEWS FEED ========== -->
+  <div class="tab-pane fade h-100 overflow-auto" id="newsPanel" role="tabpanel">
+    <div class="container-fluid px-3 py-3">
+
+      <!-- Top bar -->
+      <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+        <h5 class="mb-0 text-light"><i class="bi bi-newspaper me-2"></i>Live News Feed</h5>
+        <div class="d-flex align-items-center gap-2">
+          <span class="updated-at" id="newsUpdatedAt"></span>
+          <button class="btn btn-refresh" id="btnRefreshNews">
+            <i class="bi bi-arrow-clockwise me-1"></i>REFRESH FEED
+          </button>
+        </div>
+      </div>
+
+      <!-- Source filter pills -->
+      <div class="filter-pills mb-3" id="sourceFilters">
+        <button class="pill active" data-source="all">All</button>
+        <button class="pill" data-source="irna">IRNA</button>
+        <button class="pill" data-source="iranintl">Iran Intl</button>
+        <button class="pill" data-source="aljazeera">Al Jazeera</button>
+        <button class="pill" data-source="isw">ISW</button>
+        <button class="pill" data-source="csis">CSIS</button>
+        <button class="pill" data-source="centcom">CENTCOM</button>
+        <button class="pill" data-source="ukmto">UKMTO</button>
+      </div>
+
+      <!-- Tier legend -->
+      <div class="d-flex flex-wrap gap-2 mb-3 tier-legend">
+        <span class="tier-badge tier-tier1">● Tier-1</span>
+        <span class="tier-badge tier-official">● Official</span>
+        <span class="tier-badge tier-regional">● Regional</span>
+        <span class="tier-badge tier-analysis">● Analysis</span>
+      </div>
+
+      <!-- News cards -->
+      <div id="newsList">
+        <div class="text-center text-muted py-5">Loading news feed…</div>
+      </div>
+
+      <div id="newsEmpty" class="text-center text-muted py-5 d-none">
+        No articles match the current filter.
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========== TAB 4: STRIKES ========== -->
+  <div class="tab-pane fade h-100 overflow-auto" id="strikesPanel" role="tabpanel">
+    <div class="container-fluid px-3 py-3">
+
+      <!-- Top bar -->
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <h5 class="mb-0 text-light"><i class="bi bi-crosshair me-2"></i>Strike Analytics — ISW Data</h5>
+        <div class="d-flex align-items-center gap-2">
+          <span class="updated-at" id="strikesUpdatedAt"></span>
+          <button class="btn btn-refresh" id="btnRefreshStrikes">
+            <i class="bi bi-arrow-clockwise me-1"></i>REFRESH
+          </button>
+        </div>
+      </div>
+
+      <!-- Stat cards -->
+      <div class="strike-stats mb-3" id="strikeStatCards">
+        <div class="strike-stat-card">
+          <div class="strike-stat-label">Missile Launchers Destroyed</div>
+          <div class="strike-stat-val" id="statLaunchers">—</div>
+          <div class="strike-stat-sub">of pre-war inventory</div>
+        </div>
+        <div class="strike-stat-card">
+          <div class="strike-stat-label">IRGC Casualties (est.)</div>
+          <div class="strike-stat-val" id="statCasualties">—</div>
+          <div class="strike-stat-sub">killed / wounded</div>
+        </div>
+        <div class="strike-stat-card">
+          <div class="strike-stat-label">Tehran LEC Stations Hit</div>
+          <div class="strike-stat-val" id="statLec">—</div>
+          <div class="strike-stat-sub">law enforcement command</div>
+        </div>
+        <div class="strike-stat-card">
+          <div class="strike-stat-label">Days of War</div>
+          <div class="strike-stat-val" id="statDaysOfWar">—</div>
+          <div class="strike-stat-sub">since 28 Feb 2026</div>
+        </div>
+        <div class="strike-stat-card">
+          <div class="strike-stat-label">Hormuz Incidents</div>
+          <div class="strike-stat-val" id="statHormuz">—</div>
+          <div class="strike-stat-sub">since 1 Mar 2026</div>
+        </div>
+      </div>
+
+      <!-- Daily Trends chart -->
+      <div class="analysis-card mb-3">
+        <div class="card-header-bar">DAILY STRIKE TRENDS — FEB 28 → MAR 16 (ISW CONFIRMED)</div>
+        <div class="card-body-inner p-3">
+          <div class="chart-container" style="height:250px;">
+            <canvas id="strikesChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gulf Intercepts chart -->
+      <div class="analysis-card mb-3">
+        <div class="card-header-bar">GULF STATE INTERCEPTS — MAR 16 (ISW CONFIRMED)</div>
+        <div class="card-body-inner p-3">
+          <div class="chart-container" style="height:200px;">
+            <canvas id="interceptChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Confirmed Strike Events -->
+      <div class="analysis-card">
+        <div class="card-header-bar">CONFIRMED STRIKE EVENTS <span class="badge bg-secondary ms-2" id="strikeEventCount">0</span></div>
+        <div class="card-body-inner p-0">
+          <div class="dev-list" id="strikeEventList" style="max-height:420px;">
+            <div class="dev-placeholder text-center py-4 text-muted">Loading strike data…</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div><!-- /tab-content -->
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+
+<script src="/static/js/map.js"></script>
+<script src="/static/js/analysis.js"></script>
+<script src="/static/js/news.js"></script>
+<script src="/static/js/strikes.js"></script>
+
+<script>
+  // ---- UTC clock ----
+  function updateClock() {
+    const now = new Date();
+    const pad = n => String(n).padStart(2, '0');
+    document.getElementById('headerClock').textContent =
+      `${now.getUTCFullYear()}-${pad(now.getUTCMonth()+1)}-${pad(now.getUTCDate())} ` +
+      `${pad(now.getUTCHours())}:${pad(now.getUTCMinutes())}:${pad(now.getUTCSeconds())}`;
+  }
+  setInterval(updateClock, 1000);
+  updateClock();
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // ---- Sidebar collapse ----
+    const sidebar = document.getElementById('mapSidebar');
+    const toggleBtn = document.getElementById('sidebarToggle');
+    toggleBtn.addEventListener('click', () => {
+      const collapsed = sidebar.classList.toggle('collapsed');
+      toggleBtn.innerHTML = collapsed ? '&#8250;' : '&#8249;';
+      toggleBtn.title = collapsed ? 'Expand sidebar' : 'Collapse sidebar';
+      setTimeout(() => _map && _map.invalidateSize(), 310);
+    });
+
+    // Load all data sources immediately on page load
+    initMap();
+    loadMapData();
+    loadAnalysis();
+    loadNews();
+    loadStrikes();
+
+    // Refresh buttons on tab switch still work via their own listeners
+    // Re-render hotspots when analysis tab is shown (needs map data)
+    document.getElementById('analysis-tab').addEventListener('shown.bs.tab', () => {
+      // Re-render hotspots in case map data arrived after initial load
+      if (window._firmsData && window._assetsData) renderHotspots();
+    });
+  });
+</script>
+</body>
+</html>

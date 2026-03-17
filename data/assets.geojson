@@ -1,0 +1,3281 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.7258,
+          33.7243
+        ]
+      },
+      "properties": {
+        "name": "Natanz Nuclear Enrichment Facility",
+        "type": "strategic",
+        "subtype": "nuclear",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Primary uranium enrichment site. Houses FEP (above ground) and FFEP (buried ~8m underground). Thousands of IR-1 and advanced IR-2m/IR-6 centrifuges.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.9932,
+          34.8847
+        ]
+      },
+      "properties": {
+        "name": "Fordow Fuel Enrichment Plant",
+        "type": "strategic",
+        "subtype": "nuclear",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Deep underground, ~80m below granite mountain near Qom. ~3,000 centrifuges. Believed hardened against bunker-busting munitions.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2286,
+          34.09
+        ]
+      },
+      "properties": {
+        "name": "Arak Heavy Water Reactor (IR-40)",
+        "type": "strategic",
+        "subtype": "nuclear",
+        "country": "Iran",
+        "status": "Partially modified",
+        "notes": "IR-40 heavy water reactor. Core concrete-filled under JCPOA. Associated heavy water production plant nearby.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.6899,
+          32.6578
+        ]
+      },
+      "properties": {
+        "name": "Isfahan Nuclear Technology Centre (ENTC)",
+        "type": "strategic",
+        "subtype": "nuclear",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Uranium conversion facility (UCF), fuel fabrication plant, Zirconium Production Plant, multiple research reactors. Hub of Iran's fuel cycle.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.8284,
+          28.9703
+        ]
+      },
+      "properties": {
+        "name": "Bushehr Nuclear Power Plant",
+        "type": "strategic",
+        "subtype": "nuclear",
+        "country": "Iran",
+        "status": "Operational",
+        "notes": "Russian-built VVER-1000 (1GW). Unit 2 under construction. Fuel supplied by Russia under take-back agreement.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.7761,
+          35.5228
+        ]
+      },
+      "properties": {
+        "name": "Parchin Military Complex",
+        "type": "strategic",
+        "subtype": "nuclear_military",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Large military R&D complex SE of Tehran. IAEA suspects past nuclear weapons-related HE testing. Access denied.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.9,
+          32.5833
+        ]
+      },
+      "properties": {
+        "name": "Saghand Uranium Mine",
+        "type": "strategic",
+        "subtype": "nuclear",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Iran's main domestic uranium ore mine in Yazd province.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.51,
+          35.7611
+        ]
+      },
+      "properties": {
+        "name": "Lavizan-Shian Site (former TPRC)",
+        "type": "strategic",
+        "subtype": "nuclear_military",
+        "country": "Iran",
+        "status": "Demolished/cleared",
+        "notes": "Former Physics Research Centre in NE Tehran. Site levelled and topsoil removed before IAEA access granted. Suspected nuclear weapons research.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.3944,
+          32.4342
+        ]
+      },
+      "properties": {
+        "name": "Dezful Air Base (Vahdati AB)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "IRIAF 3rd Tactical Air Base. F-4E Phantom II, C-130. Key base for Khuzestan/Arabian Gulf operations.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.2349,
+          38.069
+        ]
+      },
+      "properties": {
+        "name": "Tabriz Air Base (2nd Tactical AB)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Northwest Iran. F-14 Tomcats, Su-24 Fencers. Close to Turkey/Azerbaijan/Armenia borders.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5893,
+          29.5425
+        ]
+      },
+      "properties": {
+        "name": "Shiraz Air Base (7th Tactical AB)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Southern Iran. F-14 Tomcat, F-4, C-130. Controls approaches to Persian Gulf and Strait of Hormuz.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.52,
+          32.47
+        ]
+      },
+      "properties": {
+        "name": "Isfahan Air Base (8th Tactical AB)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Co-located with HESA aerospace industries. MiG-29 Fulcrum. Adjacent to nuclear technology centre.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.54,
+          34.98
+        ]
+      },
+      "properties": {
+        "name": "Hamadan Air Base (Shahrokhi AB)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Strategic bomber-capable base in western Iran. Hosted Russian Tu-22M3 Backfires in 2016 (briefly). Su-24 Fencers.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.389,
+          35.6892
+        ]
+      },
+      "properties": {
+        "name": "Tehran \u00e2\u20ac\u201d Mehrabad Air Base",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Domestic airport and military facility. F-4, C-130, Boeing 707 tankers.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.1681,
+          37.2081
+        ]
+      },
+      "properties": {
+        "name": "Ghale Morghi / Noje Air Base (Tehran NE)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "IRGC air force base NE of Tehran.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.4431,
+          27.2194
+        ]
+      },
+      "properties": {
+        "name": "Bandar Abbas Air Base",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Co-located with Bandar Abbas International Airport. Critical air defence position for Strait of Hormuz.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4361,
+          33.1631
+        ]
+      },
+      "properties": {
+        "name": "Al Rashid Air Base / Muthanna (Baghdad)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Iraq",
+        "status": "Active (US/Iraqi)",
+        "notes": "Used by Iraqi Air Force. US forces presence. Near Baghdad.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2803,
+          27.1765
+        ]
+      },
+      "properties": {
+        "name": "Bandar Abbas \u00e2\u20ac\u201d IRGC Navy HQ",
+        "type": "military",
+        "subtype": "naval_base",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "HQ IRGC Navy. Fast-attack craft, mines, submarines (Kilo class). Controls northern Strait of Hormuz. Major logistics hub.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.1333,
+          27.0833
+        ]
+      },
+      "properties": {
+        "name": "Abu Musa Island \u00e2\u20ac\u201d IRGC Garrison",
+        "type": "military",
+        "subtype": "island_base",
+        "country": "Iran (disputed UAE)",
+        "status": "Active",
+        "notes": "IRGC garrison, radar, SAM batteries. Airstrip. Overlooks main Hormuz shipping lanes. Disputed with UAE.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.9208,
+          26.9538
+        ]
+      },
+      "properties": {
+        "name": "Greater Tunb Island \u00e2\u20ac\u201d IRGC Outpost",
+        "type": "military",
+        "subtype": "island_base",
+        "country": "Iran (disputed UAE)",
+        "status": "Active",
+        "notes": "IRGC outpost. Overlooks deepwater shipping channel. Disputed with UAE.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.8833,
+          26.9167
+        ]
+      },
+      "properties": {
+        "name": "Lesser Tunb Island",
+        "type": "military",
+        "subtype": "island_base",
+        "country": "Iran (disputed UAE)",
+        "status": "Active",
+        "notes": "Small IRGC presence. Part of disputed island group.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.8881,
+          26.6547
+        ]
+      },
+      "properties": {
+        "name": "Larak Island \u00e2\u20ac\u201d IRGC Naval Base",
+        "type": "military",
+        "subtype": "naval_base",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "IRGC Navy support facility. Minelaying and fast-attack craft base inside Hormuz.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.88,
+          26.55
+        ]
+      },
+      "properties": {
+        "name": "Qeshm Island \u00e2\u20ac\u201d IRGC Underground Facility",
+        "type": "military",
+        "subtype": "underground_base",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Iran's largest island. Reported underground missile storage tunnels under the island. IRGC underground 'tunnel city' for naval assets and missiles.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5561,
+          34.3489
+        ]
+      },
+      "properties": {
+        "name": "Imam Ali Missile Base (Al-Walid)",
+        "type": "military",
+        "subtype": "missile_base",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "IRGC ballistic missile base in western Iran near Iraq border. Used for strikes on US bases in Iraq 2020 (Op. Martyr Soleimani). Shahab/Fateh-class missiles.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.8219,
+          36.4764
+        ]
+      },
+      "properties": {
+        "name": "Haj Agha Ali Missile Base (NW Iran)",
+        "type": "military",
+        "subtype": "missile_base",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "IRGC underground missile base in NW Iran. Reported hardened silos. Shahab-3, Emad, Ghadr ballistic missiles.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3152,
+          25.1175
+        ]
+      },
+      "properties": {
+        "name": "Al Udeid Air Base (Qatar)",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "Qatar",
+        "status": "Active",
+        "notes": "Largest US air base in Middle East. USAF 379th Air Expeditionary Wing. CENTCOM Forward HQ. ~10,000 personnel. B-52, F-15, KC-135, AWACS, drones.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.4769,
+          24.248
+        ]
+      },
+      "properties": {
+        "name": "Al Dhafra Air Base (UAE)",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "UAE",
+        "status": "Active",
+        "notes": "USAF 380th Air Expeditionary Wing. F-22 Raptors, RQ-4 Global Hawk, U-2, KC-10/135 tankers. ISR hub for Gulf region.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.65,
+          26.2
+        ]
+      },
+      "properties": {
+        "name": "NSA Bahrain / 5th Fleet HQ",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "Bahrain",
+        "status": "Active",
+        "notes": "HQ US Naval Forces Central Command and 5th Fleet. USS LaSalle/Coronado homeport. Destroyer and mine warfare vessels. Patrol boats.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.1117,
+          37.1003
+        ]
+      },
+      "properties": {
+        "name": "Incirlik Air Base (Turkey)",
+        "type": "military",
+        "subtype": "us_nato_base",
+        "country": "Turkey",
+        "status": "Active",
+        "notes": "NATO base. ~50 US B61 nuclear gravity bombs stored. USAF 39th Air Base Wing. Key staging point for Middle East operations.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.4278,
+          -7.3153
+        ]
+      },
+      "properties": {
+        "name": "Diego Garcia (British Indian Ocean Territory)",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "UK/USA",
+        "status": "Active",
+        "notes": "Joint UK/US base. B-52, B-1B, B-2 bombers deployed here. P-8 Poseidon maritime patrol. Key long-range strike staging point for Gulf/Iran operations.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3361,
+          33.2631
+        ]
+      },
+      "properties": {
+        "name": "Camp Victory / BIAP (Baghdad)",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "Iraq",
+        "status": "Residual US presence",
+        "notes": "Baghdad International Airport complex. Residual US/Coalition forces. Target of IRGC-backed militia rocket attacks.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.2711,
+          33.3542
+        ]
+      },
+      "properties": {
+        "name": "Ain al-Assad Air Base (Iraq)",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "Iraq",
+        "status": "Active (US/Iraqi)",
+        "notes": "Hit by 16 Iranian ballistic missiles Jan 2020 (Op. Martyr Soleimani). Houses US troops. Patriot PAC-3 batteries deployed.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.6903,
+          35.5697
+        ]
+      },
+      "properties": {
+        "name": "Erbil Air Base / K1 Base (Iraqi Kurdistan)",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "Iraq/Kurdistan",
+        "status": "Active (US/Kurdish)",
+        "notes": "US forces and contractors. Hit by Iranian ballistic missiles and drone attacks. Critical intel and SOF hub.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.5,
+          22.5
+        ]
+      },
+      "properties": {
+        "name": "USS CSG \u00e2\u20ac\u201d Arabian Sea Patrol Zone (approx)",
+        "type": "military",
+        "subtype": "naval_presence",
+        "country": "USA",
+        "status": "Rotational",
+        "notes": "Approximate operating area for US Carrier Strike Group. Includes carrier, cruiser, 2x destroyers, SSN. F/A-18 strike range covers all of Iran.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.55,
+          26.3
+        ]
+      },
+      "properties": {
+        "name": "USS CSG \u00e2\u20ac\u201d Persian Gulf Patrol Zone (approx)",
+        "type": "military",
+        "subtype": "naval_presence",
+        "country": "USA",
+        "status": "Rotational",
+        "notes": "US/Allied naval presence in northern Gulf. Amphibious assault ships, Mine Countermeasure vessels, patrol boats. IRGC harasses these regularly.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6556,
+          31.2356
+        ]
+      },
+      "properties": {
+        "name": "Nevatim Air Base (IAF)",
+        "type": "military",
+        "subtype": "israeli_airbase",
+        "country": "Israel",
+        "status": "Active",
+        "notes": "Home of IAF F-35I Adir stealth squadron. Primary strategic strike base. Attacked by Iranian missile/drone salvo April 2024. Airfield sustained minor damage.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6717,
+          31.2433
+        ]
+      },
+      "properties": {
+        "name": "Hatzerim Air Base (IAF)",
+        "type": "military",
+        "subtype": "israeli_airbase",
+        "country": "Israel",
+        "status": "Active",
+        "notes": "IAF F-16I Sufa base. Home of Israeli Aerobatics Team. Near Beersheba.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8167,
+          32.1833
+        ]
+      },
+      "properties": {
+        "name": "Tel Nof Air Base (IAF)",
+        "type": "military",
+        "subtype": "israeli_airbase",
+        "country": "Israel",
+        "status": "Active",
+        "notes": "IAF F-15I Ra'am base. Nuclear-capable. Primary long-range strike platform for Iran mission scenarios.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9,
+          31.9833
+        ]
+      },
+      "properties": {
+        "name": "Palmachim Air Base (IAF/Arrow/ISCM)",
+        "type": "military",
+        "subtype": "israeli_airbase",
+        "country": "Israel",
+        "status": "Active",
+        "notes": "Israeli space launch facility. Home of Arrow 2/3 BMD interceptors. Jericho ballistic missile storage suspected nearby.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.6676,
+          26.9644
+        ]
+      },
+      "properties": {
+        "name": "Abqaiq Oil Processing Facility (Buqyaq)",
+        "type": "energy",
+        "subtype": "oil_processing",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "World's largest oil processing and crude stabilisation facility. Processes ~7% of global oil supply. Attacked by Houthi drones/cruise missiles Sept 2019, causing 5% global supply disruption. Start of Petroline East-West Pipeline.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.1601,
+          26.6767
+        ]
+      },
+      "properties": {
+        "name": "Ras Tanura Oil Terminal & Refinery",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "World's largest offshore oil loading facility. 6\u00e2\u20ac\u201c7 Mb/d capacity. Co-located with major refinery. Primary Saudi crude export terminal on Gulf coast.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0583,
+          24.0833
+        ]
+      },
+      "properties": {
+        "name": "Yanbu Oil Terminal & Refinery (Red Sea)",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Western terminus of Aramco's Petroline (East-West Pipeline). Capacity ~5 Mb/d. Bypasses Strait of Hormuz entirely. Yanbu refinery (SAMREF) co-located.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0,
+          25.5
+        ]
+      },
+      "properties": {
+        "name": "Petroline (East-West Pipeline) \u00e2\u20ac\u201d Midpoint",
+        "type": "energy",
+        "subtype": "pipeline_waypoint",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Saudi Aramco Petroline: 1,200km, 48-inch pipeline. Abqaiq \u00e2\u2020\u2019 Yanbu. ~5 Mb/d capacity. Key strategic bypass of Hormuz. Route crosses central Arabian Peninsula. Five pumping stations.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.662,
+          27.0046
+        ]
+      },
+      "properties": {
+        "name": "Jubail Industrial City / SATORP Refinery",
+        "type": "energy",
+        "subtype": "refinery",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Largest industrial city in the world. SATORP refinery (Saudi Aramco-Total). SABIC petrochemicals. 400k b/d refining. Port Jubail petroleum exports.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.4011,
+          25.1244
+        ]
+      },
+      "properties": {
+        "name": "Ghawar Oil Field",
+        "type": "energy",
+        "subtype": "oilfield",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "World's largest conventional oil field. ~280km long. ~3.8 Mb/d production. Produces ~6% of global supply. Fields: Ain Dar, Shedgum, Uthmaniyah, Hawiyah, Haradh.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.0369,
+          22.5145
+        ]
+      },
+      "properties": {
+        "name": "Shaybah NGL Plant & Oil Field",
+        "type": "energy",
+        "subtype": "oilfield",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Remote oil field in Rub' al Khali desert. ~1 Mb/d. NGL production plant. Attacked by Houthi drones Aug 2019.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2011,
+          24.9266
+        ]
+      },
+      "properties": {
+        "name": "Khurais / Khuraisaniyah Oil Field",
+        "type": "energy",
+        "subtype": "oilfield",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "~1.2 Mb/d. Struck by Houthi drone attack Sept 2019 simultaneously with Abqaiq. Gas-oil separation plants (GOSPs).",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.8042,
+          27.9969
+        ]
+      },
+      "properties": {
+        "name": "Safaniya Offshore Oil Field",
+        "type": "energy",
+        "subtype": "oilfield",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "World's largest offshore oil field. ~1.2 Mb/d. NW Persian Gulf. 30+ producing platforms.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1894,
+          27.6358
+        ]
+      },
+      "properties": {
+        "name": "Manifa Offshore Oil Field",
+        "type": "energy",
+        "subtype": "oilfield",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "~900k b/d heavy crude. Artificial island cluster connected by 41km causeway. Pipeline to Ju'aymah terminal.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.3575,
+          27.0383
+        ]
+      },
+      "properties": {
+        "name": "Ju'aymah Oil Terminal",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Offshore NGL and crude loading terminal. Processes output from Safaniya, Marjan, Zuluf fields.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.15,
+          23.92
+        ]
+      },
+      "properties": {
+        "name": "Haradh Gas Plant (Ghawar South)",
+        "type": "energy",
+        "subtype": "gas",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Gas-oil separation and NGL fractionation. Southernmost section of Ghawar field.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.6333,
+          27.35
+        ]
+      },
+      "properties": {
+        "name": "Saudi Aramco Qatif Producing Area",
+        "type": "energy",
+        "subtype": "oilfield",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Offshore and onshore fields near Qatif. Produces sour crude. Qatif is majority-Shia city \u00e2\u20ac\u201d domestic security concern.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.2806,
+          21.4667
+        ]
+      },
+      "properties": {
+        "name": "Petroline Yanbu Pumping Station (approx)",
+        "type": "energy",
+        "subtype": "pipeline_station",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "One of five pumping stations along the East-West Pipeline approaching Yanbu.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.7319,
+          24.1097
+        ]
+      },
+      "properties": {
+        "name": "Ruwais Refinery & NGL Fractionation",
+        "type": "energy",
+        "subtype": "refinery",
+        "country": "UAE",
+        "status": "Active",
+        "notes": "ADNOC. ~817k b/d refining capacity. One of world's largest. NGL, LPG, ethylene cracker. ~200km W of Abu Dhabi. Petrochemical complex.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.6128,
+          24.1875
+        ]
+      },
+      "properties": {
+        "name": "Jebel Dhanna / Jebel al-Dhanna Terminal",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "UAE",
+        "status": "Active",
+        "notes": "ADNOC main onshore crude export terminal on Gulf coast. ~1.6 Mb/d loading capacity. Receives from Upper Zakum and onshore fields.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.8739,
+          25.1494
+        ]
+      },
+      "properties": {
+        "name": "Das Island \u00e2\u20ac\u201d LNG & NGL Terminal",
+        "type": "energy",
+        "subtype": "lng_terminal",
+        "country": "UAE",
+        "status": "Active",
+        "notes": "ADGAS LNG terminal. Offshore Das Island in Gulf. Receives gas from Upper Zakum offshore field. Near Abu Dhabi National Oil Company offshore operations.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.6794,
+          23.4753
+        ]
+      },
+      "properties": {
+        "name": "Habshan Gas Processing (ADNOC)",
+        "type": "energy",
+        "subtype": "gas",
+        "country": "UAE",
+        "status": "Active",
+        "notes": "ADNOC Habshan gas processing complex. Start of Abu Dhabi Crude Oil Pipeline (ADCOP) bypassing Hormuz. 1.5 Mb/d capacity to Fujairah.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3597,
+          25.1253
+        ]
+      },
+      "properties": {
+        "name": "Fujairah Oil Terminal (Abu Dhabi Bypass Pipeline)",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "UAE",
+        "status": "Active",
+        "notes": "Eastern terminus of ADCOP \u00e2\u20ac\u201d 380km pipeline bypassing Strait of Hormuz. 1.5 Mb/d to Indian Ocean. Also world's 3rd largest bunkering hub. Tankers attacked in anchorage May 2019.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3278,
+          24.4597
+        ]
+      },
+      "properties": {
+        "name": "Barakah Nuclear Power Plant",
+        "type": "strategic",
+        "subtype": "nuclear",
+        "country": "UAE",
+        "status": "Operational (Units 1-4)",
+        "notes": "Korean-built APR-1400 reactors. Units 1-4 operational. 5.6GW total. Arab world's first nuclear power station. Located on Gulf coast.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.8611,
+          29.2487
+        ]
+      },
+      "properties": {
+        "name": "Kharg Island Oil Export Terminal",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "~90% of Iranian crude exports. Multiple SPMs and berths. Attacked multiple times in Iran-Iraq War. IRGC garrison and SAM protection. ~2 Mb/d capacity.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.3122,
+          30.3397
+        ]
+      },
+      "properties": {
+        "name": "Abadan Oil Refinery",
+        "type": "energy",
+        "subtype": "refinery",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "400k b/d. One of world's largest. Heavily damaged in Iran-Iraq War. Rebuilt. Major domestic fuel production.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.6058,
+          27.4736
+        ]
+      },
+      "properties": {
+        "name": "Assaluyeh Petrochemical Complex (South Pars)",
+        "type": "energy",
+        "subtype": "gas",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Iran's main gas processing hub for South Pars field. 30+ LNG/NGL/petrochemical plants. Pars Special Economic Energy Zone. Pipelines to national gas grid.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.3531,
+          26.8128
+        ]
+      },
+      "properties": {
+        "name": "Lavan Island Oil Terminal",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Offshore oil loading terminal in Persian Gulf. Used as alternate export terminal. NIOC operated.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.5433,
+          25.9058
+        ]
+      },
+      "properties": {
+        "name": "Sirri Island Oil Terminal",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Major oil export terminal near Strait of Hormuz. NIOC operated. Sanctions-evading shipments observed via AIS manipulation.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.97,
+          30.0
+        ]
+      },
+      "properties": {
+        "name": "Ahvaz / Marun / Gachsaran Oil Fields",
+        "type": "energy",
+        "subtype": "oilfield",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Heart of Iranian oil production in Khuzestan. Ahvaz (~700k b/d), Marun, Gachsaran, Aghajari fields combined ~50% of Iran's output.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.36,
+          27.7706
+        ]
+      },
+      "properties": {
+        "name": "South Pars Gas Field (Iran) / North Dome (Qatar)",
+        "type": "energy",
+        "subtype": "gas",
+        "country": "Iran / Qatar",
+        "status": "Active",
+        "notes": "World's largest natural gas reservoir. Iran: 24 development phases, 500 tcf reserves. Qatar North Dome: largest single gas structure. Combined ~40% of global gas reserves.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.42,
+          32.5422
+        ]
+      },
+      "properties": {
+        "name": "Isfahan Oil Refinery",
+        "type": "energy",
+        "subtype": "refinery",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "~375k b/d. Iran's largest refinery. Supplies Tehran and central Iran. Co-located with petrochemicals.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3,
+          35.65
+        ]
+      },
+      "properties": {
+        "name": "Tehran Oil Refinery",
+        "type": "energy",
+        "subtype": "refinery",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "~225k b/d. Supplies Iranian capital of 15+ million. Loss would cause immediate fuel crisis.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.301,
+          38.078
+        ]
+      },
+      "properties": {
+        "name": "Tabriz Oil Refinery",
+        "type": "energy",
+        "subtype": "refinery",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "~110k b/d. Northwest Iran. Supplies Azerbaijan, Kurdistan, and NW provinces.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.7994,
+          29.6892
+        ]
+      },
+      "properties": {
+        "name": "Al Basrah Oil Terminal (ABOT)",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Iraq",
+        "status": "Active",
+        "notes": "Iraq's main offshore oil export terminal. ~1.8 Mb/d. Northern Gulf. Key Iraq revenue source. Coalition protected during Iraq War.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.8208,
+          29.7819
+        ]
+      },
+      "properties": {
+        "name": "Khor Al-Amaya Oil Terminal (KAAOT)",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Iraq",
+        "status": "Reduced capacity",
+        "notes": "Secondary Iraq export terminal. Originally 1.6 Mb/d but partially mothballed. Near ABOT.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.7807,
+          30.2724
+        ]
+      },
+      "properties": {
+        "name": "Rumaila Oil Field",
+        "type": "energy",
+        "subtype": "oilfield",
+        "country": "Iraq",
+        "status": "Active",
+        "notes": "~1.5 Mb/d. Iraq's largest field. Operated by BP/CNPC. Shares reservoir with Kuwait's Ratqa field \u00e2\u20ac\u201d disputed border.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3922,
+          35.4681
+        ]
+      },
+      "properties": {
+        "name": "Kirkuk Oil Field & Terminal",
+        "type": "energy",
+        "subtype": "oilfield",
+        "country": "Iraq",
+        "status": "Disrupted",
+        "notes": "~350k b/d. Northern Iraq. Feeds Iraq-Turkey Pipeline (ITP/Kirkuk-Ceyhan). Attacked by ISIS and sabotage repeatedly. Disputed between Baghdad and Erbil.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.135,
+          36.805
+        ]
+      },
+      "properties": {
+        "name": "Ceyhan Oil Terminal (Turkey) \u00e2\u20ac\u201d ITP Terminus",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Turkey",
+        "status": "Active (reduced)",
+        "notes": "Mediterranean terminus of Iraq-Turkey Pipeline (Kirkuk-Ceyhan, ~970km). Also receives Azeri BTC crude. Capacity ~1.6 Mb/d. Frequently disrupted by pipeline sabotage/attacks.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.1386,
+          29.0692
+        ]
+      },
+      "properties": {
+        "name": "Mina Al-Ahmadi Oil Terminal & Refinery",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Kuwait",
+        "status": "Active",
+        "notes": "Kuwait's main export terminal and refinery hub. ~2.4 Mb/d loading capacity. KNPC operated. Pipeline from Burgan field.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.7808,
+          28.9269
+        ]
+      },
+      "properties": {
+        "name": "Greater Burgan Oil Field",
+        "type": "energy",
+        "subtype": "oilfield",
+        "country": "Kuwait",
+        "status": "Active",
+        "notes": "World's 2nd largest oil field. ~1.7 Mb/d. 60+ billion barrels proven reserves. Producing since 1938. Kuwait Oil Company.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5536,
+          26.1553
+        ]
+      },
+      "properties": {
+        "name": "Ras Laffan Industrial City & LNG Terminal",
+        "type": "energy",
+        "subtype": "lng_terminal",
+        "country": "Qatar",
+        "status": "Active",
+        "notes": "World's largest LNG export facility. ~77 Mtpa LNG from North Dome field. 14 LNG trains. QatarEnergy (formerly QP). Petrochemicals. Expanding to 126 Mtpa by 2027.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5375,
+          25.9011
+        ]
+      },
+      "properties": {
+        "name": "Mesaieed Oil Terminal & Petrochemical Zone",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Qatar",
+        "status": "Active",
+        "notes": "Qatar's main crude export terminal south of Doha. Petrochemical complex, Al-Shaheen crude loading. QatarEnergy / Shell operated.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.275,
+          26.55
+        ]
+      },
+      "properties": {
+        "name": "Strait of Hormuz \u00e2\u20ac\u201d Main Channel",
+        "type": "maritime",
+        "subtype": "chokepoint",
+        "country": "International",
+        "status": "Active",
+        "notes": "~20% of global oil trade (~18 Mb/d) and ~25% of global LNG. 3km-wide shipping lane in 33km strait. Iran threatens closure regularly. IRGC harasses tankers. US 5th Fleet patrols.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.3,
+          12.6
+        ]
+      },
+      "properties": {
+        "name": "Bab el-Mandeb Strait",
+        "type": "maritime",
+        "subtype": "chokepoint",
+        "country": "International",
+        "status": "Disrupted",
+        "notes": "~8.8 Mb/d oil transit. 29km wide. Houthi anti-ship missiles, drones, sea mines actively deployed since Oct 2023. Major shipping rerouting via Cape of Good Hope.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.57,
+          30.0
+        ]
+      },
+      "properties": {
+        "name": "Suez Canal (Southern Entrance)",
+        "type": "maritime",
+        "subtype": "chokepoint",
+        "country": "Egypt",
+        "status": "Active (reduced)",
+        "notes": "~12% of global trade, ~8% of global oil. Major transit route for Gulf exports to Europe. Revenue loss due to Houthi disruption forcing Cape routing.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.0878,
+          30.4475
+        ]
+      },
+      "properties": {
+        "name": "Bandar Imam Khomeini Port",
+        "type": "maritime",
+        "subtype": "port",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Iran's largest port by tonnage. Major import hub for grain, commodities. At head of Persian Gulf.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.8222,
+          30.4261
+        ]
+      },
+      "properties": {
+        "name": "Shahid Rajaee Port (Bandar Abbas)",
+        "type": "maritime",
+        "subtype": "port",
+        "country": "Iran",
+        "status": "Active",
+        "notes": "Iran's main container and general cargo terminal. Sabotage attack suspected May 2020. Near IRGC naval base.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3481,
+          25.3556
+        ]
+      },
+      "properties": {
+        "name": "Khor Fakkan Container Terminal (UAE)",
+        "type": "maritime",
+        "subtype": "port",
+        "country": "UAE",
+        "status": "Active",
+        "notes": "Major transshipment hub outside Hormuz on Gulf of Oman. Hit in Iranian tanker harassment ops and in 2019 Fujairah attacks area.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.2,
+          25.5
+        ]
+      },
+      "properties": {
+        "name": "SWCC Jubail Desalination Plants (Saudi)",
+        "type": "lifesupport",
+        "subtype": "desalination",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Largest desalination complex in the world. ~1 billion gallons/day. SWCC (Saline Water Conversion Corp). Provides ~70% of Riyadh's water supply via ~500km pipeline.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.2361,
+          21.4858
+        ]
+      },
+      "properties": {
+        "name": "SWCC Shoaiba Desalination & Power",
+        "type": "lifesupport",
+        "subtype": "desalination",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Major desalination and power plant on Red Sea. Supplies Mecca/Jeddah water. Critical pilgrimage infrastructure.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3667,
+          24.4667
+        ]
+      },
+      "properties": {
+        "name": "ADWEC/DEWA Desalination \u00e2\u20ac\u201d Abu Dhabi / Dubai",
+        "type": "lifesupport",
+        "subtype": "desalination",
+        "country": "UAE",
+        "status": "Active",
+        "notes": "UAE produces ~42% of water via desalination. ADWEC (Abu Dhabi) and DEWA (Dubai) mega-plants. UAE entirely dependent on desalination. Loss is existential.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5903,
+          26.2372
+        ]
+      },
+      "properties": {
+        "name": "NWSC Bahrain Desalination Plants",
+        "type": "lifesupport",
+        "subtype": "desalination",
+        "country": "Bahrain",
+        "status": "Active",
+        "notes": "Bahrain fully dependent on desalination. Al Dur and Hidd plants.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.51,
+          25.31
+        ]
+      },
+      "properties": {
+        "name": "Qatar Desalination \u00e2\u20ac\u201d Ras Abu Fontas / Qurayyah",
+        "type": "lifesupport",
+        "subtype": "desalination",
+        "country": "Qatar",
+        "status": "Active",
+        "notes": "Qatar depends on desalination for ~100% of freshwater. Ras Abu Fontas A/B/C and Qurayyah complexes.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.8333,
+          36.6397
+        ]
+      },
+      "properties": {
+        "name": "Mosul Dam (Saddam Dam)",
+        "type": "lifesupport",
+        "subtype": "dam_water",
+        "country": "Iraq",
+        "status": "At risk",
+        "notes": "World's most dangerous dam. ~11km\u00c2\u00b3 water storage. Built on soluble gypsum \u00e2\u20ac\u201d requires constant grouting. Failure would send ~20m wave through Mosul and flood Baghdad.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.47,
+          35.69
+        ]
+      },
+      "properties": {
+        "name": "Tehran Power Grid (Shahid Rajaee + Besat Plants)",
+        "type": "lifesupport",
+        "subtype": "power",
+        "country": "Iran",
+        "status": "Active (strained)",
+        "notes": "Tehran metropolitan grid. Multiple thermal power stations. Chronic blackouts in summer. Loss would affect 15+ million residents.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5784,
+          33.8869
+        ]
+      },
+      "properties": {
+        "name": "Dahiyeh (Beirut) \u00e2\u20ac\u201d Hezbollah HQ",
+        "type": "military",
+        "subtype": "proxy_forces",
+        "country": "Lebanon",
+        "status": "Active (degraded)",
+        "notes": "Southern Beirut suburbs. Hezbollah command, logistics, tunnel networks. Struck repeatedly by Israeli airstrikes 2024. Hassan Nasrallah killed here Sept 2024.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.55,
+          33.25
+        ]
+      },
+      "properties": {
+        "name": "South Lebanon \u00e2\u20ac\u201d Hezbollah Rocket Belt",
+        "type": "military",
+        "subtype": "proxy_forces",
+        "country": "Lebanon",
+        "status": "Active",
+        "notes": "Hezbollah deploys ~150,000 rockets/missiles in S. Lebanon villages. Katyusha, Fadjr, Zelzal, Kornet ATGMs. Under UNSCR 1701 but unenforced.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3028,
+          33.5102
+        ]
+      },
+      "properties": {
+        "name": "Damascus \u00e2\u20ac\u201d IRGC/Quds Force Presence",
+        "type": "military",
+        "subtype": "proxy_forces",
+        "country": "Syria",
+        "status": "Diminished (post-Assad)",
+        "notes": "IRGC Quds Force logistics hub through Syria collapsed after Assad regime fall Dec 2024. Israel struck 400+ targets. Former weapons transfer route to Hezbollah severed.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2083,
+          15.3694
+        ]
+      },
+      "properties": {
+        "name": "Sanaa \u00e2\u20ac\u201d Houthi Control Zone",
+        "type": "military",
+        "subtype": "proxy_forces",
+        "country": "Yemen",
+        "status": "Active",
+        "notes": "Houthi (Ansarallah) control since 2014. IRGC-supplied with drones, ASCMs, ballistic missiles. Conducting Red Sea attacks on commercial shipping and US/Israeli vessels since Oct 2023.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.9547,
+          14.8022
+        ]
+      },
+      "properties": {
+        "name": "Hudaydah Port \u00e2\u20ac\u201d Houthi Logistics",
+        "type": "military",
+        "subtype": "proxy_forces",
+        "country": "Yemen",
+        "status": "Active (contested)",
+        "notes": "Main Houthi import port. Receives fuel, weapons smuggled by IRGC. UN-monitored. Attacked by Saudi-led coalition. ~70% of Yemen's humanitarian imports.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4667,
+          31.5
+        ]
+      },
+      "properties": {
+        "name": "Gaza \u00e2\u20ac\u201d Ongoing Conflict Zone",
+        "type": "damage",
+        "subtype": "conflict_zone",
+        "country": "Gaza (Hamas)",
+        "status": "Active conflict",
+        "notes": "Hamas-Israel conflict since Oct 7, 2023. Broader regional escalation catalyst. Hamas armed and funded by Iran/IRGC.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3597,
+          33.3336
+        ]
+      },
+      "properties": {
+        "name": "Baghdad \u00e2\u20ac\u201d PMF/Kataib Hezbollah HQ Area",
+        "type": "military",
+        "subtype": "proxy_forces",
+        "country": "Iraq",
+        "status": "Active",
+        "notes": "Popular Mobilisation Forces (PMF/Hashd al-Shaabi) \u00e2\u20ac\u201d Iranian-backed militias. Kataib Hezbollah, Asaib Ahl al-Haq. US forces and Embassy targeted. Abu Mahdi al-Muhandis killed (Soleimani strike).",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.67,
+            26.96
+          ],
+          [
+            48.5,
+            26.6
+          ],
+          [
+            47.0,
+            26.1
+          ],
+          [
+            45.5,
+            25.6
+          ],
+          [
+            43.8,
+            25.1
+          ],
+          [
+            41.5,
+            24.5
+          ],
+          [
+            39.5,
+            24.2
+          ],
+          [
+            38.06,
+            24.08
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Petroline \u2014 Saudi East-West Pipeline",
+        "type": "pipeline",
+        "subtype": "oil",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "capacity": "~5 Mb/d",
+        "length_km": 1200,
+        "notes": "Aramco Petroline. Abqaiq \u2192 Yanbu (Red Sea). Key Hormuz bypass. 48-inch diameter, 5 pump stations. Capacity being restored/expanded to full ~5 Mb/d.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.68,
+            23.48
+          ],
+          [
+            54.3,
+            23.65
+          ],
+          [
+            55.1,
+            24.0
+          ],
+          [
+            55.8,
+            24.5
+          ],
+          [
+            56.36,
+            25.13
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ADCOP \u2014 Abu Dhabi Crude Oil Pipeline (UAE Hormuz Bypass)",
+        "type": "pipeline",
+        "subtype": "oil",
+        "country": "UAE",
+        "status": "Active",
+        "capacity": "~1.5 Mb/d",
+        "length_km": 380,
+        "notes": "Habshan \u2192 Fujairah (Indian Ocean). Bypasses Strait of Hormuz entirely. ADNOC operated. Completed 2012. Strategic redundancy for Abu Dhabi exports.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            44.39,
+            35.47
+          ],
+          [
+            43.8,
+            36.0
+          ],
+          [
+            43.15,
+            36.35
+          ],
+          [
+            42.57,
+            37.08
+          ],
+          [
+            41.0,
+            37.5
+          ],
+          [
+            39.5,
+            37.7
+          ],
+          [
+            38.0,
+            37.6
+          ],
+          [
+            36.14,
+            36.81
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Iraq-Turkey Pipeline (Kirkuk\u2013Ceyhan / ITP)",
+        "type": "pipeline",
+        "subtype": "oil",
+        "country": "Iraq / Turkey",
+        "status": "Disrupted",
+        "capacity": "~1.6 Mb/d (design)",
+        "length_km": 970,
+        "notes": "Kirkuk \u2192 Ceyhan (Mediterranean). ~970km. Frequently shut by sabotage, attacks, and legal/political disputes. Currently offline due to Iraq-Turkey arbitration ruling (Mar 2023). Key Kurdish region revenue pipeline.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.5,
+            30.7
+          ],
+          [
+            50.2,
+            31.3
+          ],
+          [
+            50.8,
+            32.0
+          ],
+          [
+            51.7,
+            32.7
+          ],
+          [
+            51.6,
+            33.8
+          ],
+          [
+            51.5,
+            34.8
+          ],
+          [
+            51.4,
+            35.7
+          ]
+        ]
+      },
+      "properties": {
+        "name": "IGAT-1 \u2014 Iran Gas Trunkline 1",
+        "type": "pipeline",
+        "subtype": "gas",
+        "country": "Iran",
+        "status": "Active",
+        "capacity": "~500 mmscfd",
+        "length_km": 1106,
+        "notes": "First major Iranian gas pipeline. Khuzestan \u2192 Tehran (and branches). Built 1960s. Supplies central Iran domestic consumption. Vulnerable to attack along full length.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.6,
+            27.47
+          ],
+          [
+            51.7,
+            28.5
+          ],
+          [
+            51.5,
+            30.0
+          ],
+          [
+            51.5,
+            32.0
+          ],
+          [
+            50.0,
+            33.5
+          ],
+          [
+            48.5,
+            34.9
+          ],
+          [
+            47.0,
+            36.2
+          ],
+          [
+            46.3,
+            38.1
+          ]
+        ]
+      },
+      "properties": {
+        "name": "IGAT-2 \u2014 Iran Gas Trunkline 2 (South Pars to Tabriz/Turkey)",
+        "type": "pipeline",
+        "subtype": "gas",
+        "country": "Iran",
+        "status": "Active",
+        "capacity": "~1 bcf/d",
+        "length_km": 1440,
+        "notes": "South Pars \u2192 Tabriz / Turkish border. Supplies NW Iran and historically exported to Turkey (IGAT-2 link). Backbone of Iranian national gas grid.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            52.6,
+            27.47
+          ],
+          [
+            52.0,
+            27.0
+          ],
+          [
+            51.5,
+            26.8
+          ],
+          [
+            56.28,
+            27.18
+          ]
+        ]
+      },
+      "properties": {
+        "name": "South Pars Gas Gathering \u2014 Assaluyeh to Bandar Abbas",
+        "type": "pipeline",
+        "subtype": "gas",
+        "country": "Iran",
+        "status": "Active",
+        "capacity": "Multiple trains",
+        "length_km": 200,
+        "notes": "Gas gathering pipelines from South Pars offshore field to Assaluyeh onshore processing, then coastal distribution to Bandar Abbas.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.1,
+            26.3
+          ],
+          [
+            49.5,
+            26.5
+          ],
+          [
+            48.5,
+            26.3
+          ],
+          [
+            47.5,
+            25.2
+          ],
+          [
+            46.1,
+            28.3
+          ],
+          [
+            42.5,
+            29.5
+          ],
+          [
+            38.0,
+            29.6
+          ],
+          [
+            37.0,
+            30.5
+          ],
+          [
+            36.5,
+            31.3
+          ],
+          [
+            35.9,
+            31.9
+          ],
+          [
+            35.7,
+            32.8
+          ],
+          [
+            35.4,
+            33.6
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trans-Arabian Pipeline (Tapline) \u2014 HISTORICAL",
+        "type": "pipeline",
+        "subtype": "oil_historical",
+        "country": "Saudi Arabia / Jordan / Syria / Lebanon",
+        "status": "Defunct",
+        "capacity": "0 (decommissioned)",
+        "length_km": 1712,
+        "notes": "Aramco Tapline. Dhahran \u2192 Sidon (Lebanon). Built 1950. Closed in stages 1975\u20131990 (Lebanon civil war, Syria). Saudi section still used as water/telecom conduit. Historically the first major Hormuz bypass.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.5,
+            29.5
+          ],
+          [
+            33.0,
+            30.5
+          ],
+          [
+            35.0,
+            30.5
+          ],
+          [
+            35.9,
+            31.9
+          ],
+          [
+            36.5,
+            32.5
+          ],
+          [
+            36.3,
+            33.5
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Arab Gas Pipeline (Egypt\u2013Jordan\u2013Syria\u2013Lebanon)",
+        "type": "pipeline",
+        "subtype": "gas",
+        "country": "Egypt / Jordan / Syria",
+        "status": "Disrupted",
+        "capacity": "~10 bcm/yr (design)",
+        "length_km": 1200,
+        "notes": "Arish (Egypt) \u2192 Aqaba \u2192 Amman \u2192 Damascus \u2192 Lebanon (incomplete). Repeatedly sabotaged in Sinai 2011\u20132015. Syrian civil war halted Syria section. Still partially used for Jordan domestic supply.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            49.89,
+            40.41
+          ],
+          [
+            46.5,
+            41.7
+          ],
+          [
+            45.0,
+            41.7
+          ],
+          [
+            43.0,
+            41.0
+          ],
+          [
+            41.0,
+            40.5
+          ],
+          [
+            38.5,
+            38.8
+          ],
+          [
+            36.14,
+            36.81
+          ]
+        ]
+      },
+      "properties": {
+        "name": "BTC \u2014 Baku-Tbilisi-Ceyhan Pipeline",
+        "type": "pipeline",
+        "subtype": "oil",
+        "country": "Azerbaijan / Georgia / Turkey",
+        "status": "Active",
+        "capacity": "~1.2 Mb/d",
+        "length_km": 1768,
+        "notes": "Baku (Caspian) \u2192 Ceyhan (Mediterranean). BP-operated. Key route for Azerbaijani and Central Asian crude bypassing Russia AND Iran. Termination point at Ceyhan shared with Kirkuk-Ceyhan ITP.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            48.7994,
+            29.6892
+          ],
+          [
+            47.8,
+            29.3
+          ],
+          [
+            47.5,
+            29.0
+          ],
+          [
+            48.1,
+            29.07
+          ]
+        ]
+      },
+      "properties": {
+        "name": "ABOT Export Pipeline \u2014 Rumaila to Basra Terminal",
+        "type": "pipeline",
+        "subtype": "oil",
+        "country": "Iraq",
+        "status": "Active",
+        "capacity": "~2 Mb/d",
+        "length_km": 100,
+        "notes": "Rumaila field production \u2192 Zubair \u2192 Al Basrah Oil Terminal (ABOT) offshore. Iraq's primary southern export pipeline.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1728,
+          21.5169
+        ]
+      },
+      "properties": {
+        "name": "Jeddah Islamic Port",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Largest port on the Red Sea. 8M TEU/year. Major import hub for Saudi Arabia. Critical if Hormuz closed \u2014 Red Sea route becomes primary.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.0083,
+          17.0228
+        ]
+      },
+      "properties": {
+        "name": "Port of Salalah (Oman)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Oman",
+        "status": "Active",
+        "notes": "Major transshipment hub on Arabian Sea, outside Hormuz. APM Terminals. ~4M TEU/yr. Key Hormuz bypass logistics node. Free-trade zone.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.7039,
+          19.6633
+        ]
+      },
+      "properties": {
+        "name": "Port of Duqm (Oman)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Oman",
+        "status": "Active",
+        "notes": "New deep-water port on Arabian Sea. UK RN signed access (RNFAS Duqm). US Navy access. Dry dock capable of large warships. SEZ. CNOOC refinery under construction. Outside Hormuz.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.5922,
+          23.6103
+        ]
+      },
+      "properties": {
+        "name": "Mina Sultan Qaboos (Muscat Port)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Oman",
+        "status": "Active",
+        "notes": "Oman main commercial port in Muscat. Container, bulk, cruise. Adjacent to Oman Naval base.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.9461,
+          24.47
+        ]
+      },
+      "properties": {
+        "name": "Port of Sohar (Oman)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Oman",
+        "status": "Active",
+        "notes": "Industrial port on Gulf of Oman. Sohar refinery and aluminium smelter. Outside Strait of Hormuz.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.0272,
+          24.9857
+        ]
+      },
+      "properties": {
+        "name": "Jebel Ali Port (Dubai)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "UAE",
+        "status": "Active",
+        "notes": "World's largest man-made harbour. ~15M TEU/yr. DP World operated. Critical regional transshipment hub and frequent US Navy port of call.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.5333,
+          24.8
+        ]
+      },
+      "properties": {
+        "name": "Khalifa Port (Abu Dhabi)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "UAE",
+        "status": "Active",
+        "notes": "AD Ports Group semi-automated container terminal. ~5M TEU capacity. Adjacent to KIZAD industrial zone.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1436,
+          11.5894
+        ]
+      },
+      "properties": {
+        "name": "Port of Djibouti",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Djibouti",
+        "status": "Active",
+        "notes": "Critical logistics hub at Bab el-Mandeb. Multiple foreign bases: US Camp Lemonnier, French 13th DBLE, Chinese PLA-N, Japanese MSDF. 90% of Ethiopia imports transit here.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0272,
+          12.7797
+        ]
+      },
+      "properties": {
+        "name": "Port of Aden (Yemen)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Yemen (STC)",
+        "status": "Partially active",
+        "notes": "Strategic port at Bab el-Mandeb. Under Southern Transitional Council control. Reduced traffic due to Houthi threat. DP World concession suspended.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.9311,
+          30.0319
+        ]
+      },
+      "properties": {
+        "name": "Umm Qasr Port (Iraq)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Iraq",
+        "status": "Active",
+        "notes": "Iraq's only deep-water port. Primary import hub for food and commodities. Frequent PMF infiltration and smuggling reported.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9897,
+          24.8465
+        ]
+      },
+      "properties": {
+        "name": "Karachi Port & PNS Base (Pakistan)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Pakistan",
+        "status": "Active",
+        "notes": "Pakistan's largest port and Pakistan Navy HQ. Handles ~60% of Pakistan's foreign trade. PNS Karsaz naval base adjacent.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.3257,
+          25.1264
+        ]
+      },
+      "properties": {
+        "name": "Gwadar Port (Pakistan / CPEC)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Pakistan",
+        "status": "Active (developing)",
+        "notes": "China-Pakistan Economic Corridor terminus. Chinese-operated. Potential PLA-N naval access. Deep-water Arabian Sea port bypassing Hormuz for Central Asian energy.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0,
+          29.5333
+        ]
+      },
+      "properties": {
+        "name": "Port of Aqaba (Jordan)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Jordan",
+        "status": "Active",
+        "notes": "Jordan's only sea port. JRNS base. US military transit hub. Adjacent to Israeli Eilat port across the gulf.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.95,
+          29.55
+        ]
+      },
+      "properties": {
+        "name": "Port of Eilat (Israel)",
+        "type": "maritime",
+        "subtype": "commercial_port",
+        "country": "Israel",
+        "status": "Active",
+        "notes": "Israel's Red Sea port. Houthi drone attack Aug 2024. INS base. Eilat-Ashkelon pipeline (EAPC) originates here \u2014 key Suez bypass.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.0064,
+          17.6669
+        ]
+      },
+      "properties": {
+        "name": "Thumrait Air Base (Oman)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Oman",
+        "status": "Active (US/UK access)",
+        "notes": "RAFO base in southern Oman. RAF and USAF access rights. Remote staging base for Gulf operations, away from Hormuz threat.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.8983,
+          20.6706
+        ]
+      },
+      "properties": {
+        "name": "Masirah Island Air Base (Oman)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Oman",
+        "status": "Active (US access)",
+        "notes": "Strategic island base in Arabian Sea. Used by USAF during Gulf War and Afghanistan. Outside Hormuz threat envelope. P-8 Poseidon maritime patrol staging.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.3661,
+          25.0278
+        ]
+      },
+      "properties": {
+        "name": "Al Minhad Air Base (Dubai)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "UAE",
+        "status": "Active (Coalition)",
+        "notes": "UAEAF and Coalition base south of Dubai. Australia, NZ, and UK forces. C-17, KC-30A tanker. Key Gulf logistics hub.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5206,
+          29.345
+        ]
+      },
+      "properties": {
+        "name": "Ali Al Salem Air Base (Kuwait)",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "Kuwait",
+        "status": "Active (US/Kuwait)",
+        "notes": "USAF 386th AEW. A-10, F-16, C-130, MQ-9. Key close air support base. Used in both Iraq wars.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.7922,
+          28.935
+        ]
+      },
+      "properties": {
+        "name": "Ahmed Al Jaber Air Base (Kuwait)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Kuwait",
+        "status": "Active",
+        "notes": "Kuwait Air Force main fighter base. F/A-18. Co-used by USAF. Southern Kuwait, close to Iraqi border.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5781,
+          24.0626
+        ]
+      },
+      "properties": {
+        "name": "Prince Sultan Air Base (Al Kharj, Saudi Arabia)",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "US forces returned 2021. ~3,000 USAF personnel. F-15, THAAD, Patriot PAC-3 batteries. Key Saudi air defence hub.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.1523,
+          26.2654
+        ]
+      },
+      "properties": {
+        "name": "King Abdulaziz Air Base (Dhahran, Saudi Arabia)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "RSAF 24th Squadron F-15S Eagles. Adjacent to ARAMCO HQ. Patriot batteries deployed. Used by USAF during Gulf War.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7892,
+          31.8267
+        ]
+      },
+      "properties": {
+        "name": "Muwaffaq Salti Air Base (Jordan)",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "Jordan",
+        "status": "Active (US/Coalition)",
+        "notes": "USAF/RJAF base in eastern Jordan. F-16, A-10. Used for Syria strike operations. UK and French forces present.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2778,
+          31.7833
+        ]
+      },
+      "properties": {
+        "name": "Azraq Air Base (Jordan)",
+        "type": "military",
+        "subtype": "airbase",
+        "country": "Jordan",
+        "status": "Active (RJAF/RAF)",
+        "notes": "RAF Typhoons (Operation Shader). UK support to counter-ISIS and Syria monitoring. Eastern Jordan desert.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1594,
+          11.5867
+        ]
+      },
+      "properties": {
+        "name": "Camp Lemonnier (Djibouti)",
+        "type": "military",
+        "subtype": "us_base",
+        "country": "Djibouti",
+        "status": "Active",
+        "notes": "Only permanent US base in Africa. ~4,000 AFRICOM/CENTCOM personnel. MQ-9 Reaper drone hub. Monitors Bab el-Mandeb and Horn of Africa. Lease to 2036.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.17,
+          11.55
+        ]
+      },
+      "properties": {
+        "name": "French Military Base 13th DBLE (Djibouti)",
+        "type": "military",
+        "subtype": "allied_base",
+        "country": "Djibouti",
+        "status": "Active",
+        "notes": "French Foreign Legion 13th DBLE. ~1,450 troops. Oldest French overseas base. Monitors Red Sea/Bab el-Mandeb. Adjacent to US Camp Lemonnier.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.2,
+          11.56
+        ]
+      },
+      "properties": {
+        "name": "Chinese PLA-N Support Base (Djibouti)",
+        "type": "military",
+        "subtype": "chinese_base",
+        "country": "Djibouti",
+        "status": "Active",
+        "notes": "China's first overseas military base. PLA-N logistics and resupply. Berthing for PLAN warships. Intelligence gathering. Adjacent to US Camp Lemonnier \u2014 deliberate proximity.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.62,
+          21.55
+        ]
+      },
+      "properties": {
+        "name": "King Abdulaziz International Airport (Jeddah)",
+        "type": "military",
+        "subtype": "dual_use_airport",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Major civilian hub and RSAF base. Hajj terminal. Drone/missile attacks intercepted from Houthi forces 2021-2023. Saudi air defences tested repeatedly.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.7083,
+          24.7086
+        ]
+      },
+      "properties": {
+        "name": "King Khalid International Airport / Riyadh",
+        "type": "military",
+        "subtype": "dual_use_airport",
+        "country": "Saudi Arabia",
+        "status": "Active",
+        "notes": "Riyadh civilian hub co-located with RSAF assets. Drone and cruise missile attacks intercepted 2021. THAAD and Patriot batteries deployed nearby.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.55,
+          29.95
+        ]
+      },
+      "properties": {
+        "name": "SUMED Pipeline \u2014 Ain Sukhna Terminal (Egypt)",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Egypt",
+        "status": "Active",
+        "notes": "Red Sea end of Suez-Mediterranean (SUMED) pipeline. 2.5 Mb/d. Allows Gulf VLCCs too large for Suez Canal to offload here for Mediterranean delivery. Key Suez bypass.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.72,
+          31.14
+        ]
+      },
+      "properties": {
+        "name": "SUMED Pipeline \u2014 Sidi Kerir Terminal (Egypt)",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Egypt",
+        "status": "Active",
+        "notes": "Mediterranean terminus of SUMED pipeline near Alexandria. 2.5 Mb/d capacity. With Suez Canal, gives Egypt enormous leverage over global oil flows.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.1186,
+          29.3136
+        ]
+      },
+      "properties": {
+        "name": "BAPCO Refinery (Bahrain)",
+        "type": "energy",
+        "subtype": "refinery",
+        "country": "Bahrain",
+        "status": "Active",
+        "notes": "Bahrain Petroleum Company. ~267k b/d post-2024 modernisation. Processes Saudi crude via ALBA submarine pipeline from Abqaiq. Primary Bahrain revenue source.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3483,
+          24.3411
+        ]
+      },
+      "properties": {
+        "name": "Sohar Oil Refinery (Oman)",
+        "type": "energy",
+        "subtype": "refinery",
+        "country": "Oman",
+        "status": "Active",
+        "notes": "~106k b/d ORPIC refinery. Sohar industrial port. Outside Strait of Hormuz. Aromatics and polymer complex.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.18,
+          12.92
+        ]
+      },
+      "properties": {
+        "name": "Aden Oil Refinery (Yemen)",
+        "type": "energy",
+        "subtype": "refinery",
+        "country": "Yemen",
+        "status": "Shutdown",
+        "notes": "Former 150k b/d refinery. Shutdown since 2015 civil war. Repeated airstrikes and artillery damage. Loss causes acute Yemen fuel shortages.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.5247,
+          23.6483
+        ]
+      },
+      "properties": {
+        "name": "Mina al-Fahal \u2014 Oman Oil Terminal",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Oman",
+        "status": "Active",
+        "notes": "PDO (Petroleum Development Oman) main crude export terminal near Muscat. ~700k b/d. Outside Strait of Hormuz \u2014 key regional redundancy terminal.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5639,
+          31.6853
+        ]
+      },
+      "properties": {
+        "name": "Ashkelon Port \u2014 EAPC Mediterranean Terminal (Israel)",
+        "type": "energy",
+        "subtype": "oil_export",
+        "country": "Israel",
+        "status": "Active",
+        "notes": "Mediterranean end of Eilat-Ashkelon Pipeline (254km, 600k b/d). Within range of Gaza/Hezbollah rockets. Key strategic pipeline bypassing Suez Canal.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5486,
+          26.1939
+        ]
+      },
+      "properties": {
+        "name": "ASRY Drydock (Bahrain)",
+        "type": "maritime",
+        "subtype": "shipyard",
+        "country": "Bahrain",
+        "status": "Active",
+        "notes": "Arab Shipbuilding and Repair Yard. Regional drydock for tankers and warships. Strategic loss would reduce regional naval maintenance capability.",
+        "last_updated": "2025-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.22,
+          32.36
+        ]
+      },
+      "properties": {
+        "name": "Bijrand Drone Facility Strike (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "airstrike",
+        "country": "Iran",
+        "status": "Struck",
+        "actor": "US/Israel combined forces",
+        "event_date": "2026-03-15",
+        "notes": "ISW Mar 16 2026: US/Israeli combined strike on Iranian drone production facility near Bijrand, South Khorasan Province. Strike targeted drone assembly infrastructure. Part of coordinated multi-axis campaign against Iranian air/missile production.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.56,
+          35.69
+        ]
+      },
+      "properties": {
+        "name": "Doshan Tappeh Air Base Strike (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "airstrike",
+        "country": "Iran",
+        "status": "Struck",
+        "actor": "US/Israel combined forces",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: US/Israel combined force strike on Doshan Tappeh Air Base, eastern Tehran. Targeted Iranian air defence assets. Doshan Tappeh is an IRIAF and IRGC-ASF base used for air defence coordination over Tehran. Strike degraded integrated air defence network.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.64,
+          25.29
+        ]
+      },
+      "properties": {
+        "name": "Chabahar Engagement (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "naval_strike",
+        "country": "Iran",
+        "status": "Struck",
+        "actor": "US Navy (USS carrier-based F/A-18)",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: US Navy F/A-18 low-altitude engagement at Chabahar, Sistan-Baluchestan Province. Chabahar hosts IRIN (Iranian Navy) and IRGC-N bases. Strike reportedly targeted IRGC naval assets and missile launch infrastructure on the Arabian Sea coast. India-operated Shahid Beheshti port nearby \u2014 ISW notes potential escalation risk.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.364,
+          25.253
+        ]
+      },
+      "properties": {
+        "name": "Dubai International Airport \u2014 Iranian Drone Strike (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "drone_strike",
+        "country": "UAE",
+        "status": "Struck",
+        "actor": "Iran (IRGC)",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: Iranian IRGC drone strike on Dubai International Airport. Fuel tank fire reported. Airport operations disrupted. One of the world's busiest airports (~90M pax/yr). Strike represents major escalation against UAE civilian infrastructure. UAE government condemned attack.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.336,
+          25.118
+        ]
+      },
+      "properties": {
+        "name": "Fujairah Oil Industrial Zone \u2014 Iranian Drone Strike (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "drone_strike",
+        "country": "UAE",
+        "status": "Struck",
+        "actor": "Iran (IRGC)",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: Iranian drone strike on Fujairah Oil Industrial Zone. Pipeline infrastructure and storage tanker hit; fire reported. Fujairah is a major oil bunkering and storage hub outside the Strait of Hormuz (~25M barrels storage capacity). Attack targeted Hormuz bypass infrastructure. FUJAIRAH's strategic importance as alternative to Hormuz makes it a high-value Iranian target.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.33,
+          25.11
+        ]
+      },
+      "properties": {
+        "name": "Shah Oil Field, Abu Dhabi \u2014 Iranian Drone Strike (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "drone_strike",
+        "country": "UAE",
+        "status": "Struck",
+        "actor": "Iran (IRGC)",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: Iranian drone strike on Shah oil field, Abu Dhabi. Fire reported at production facility. Shah field operated by ADNOC/GASCO joint venture. Attack mirrors January 2022 Houthi-attributed Aramco drone strike pattern. Part of coordinated Iranian strike package against UAE energy infrastructure.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.35,
+          24.1
+        ]
+      },
+      "properties": {
+        "name": "Al Bahyah, Abu Dhabi \u2014 Iranian Missile Strike (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "missile_strike",
+        "country": "UAE",
+        "status": "Struck \u2014 1 KIA",
+        "actor": "Iran (IRGC)",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: Iranian ballistic or cruise missile strike on Al Bahyah area, Abu Dhabi. 1 civilian killed, multiple injured. Residential/industrial area south-west of Abu Dhabi city. UAE Patriot PAC-3 batteries attempted intercept. Confirms Iran targeting UAE civilian areas as escalation pressure.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8,
+          31.96
+        ]
+      },
+      "properties": {
+        "name": "Rishon Lezion \u2014 Iranian Cluster Munition Strike (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "missile_strike",
+        "country": "Israel",
+        "status": "Struck",
+        "actor": "Iran (IRGC ballistic missile)",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: Iranian cluster munition impact at Rishon Lezion, major city south of Tel Aviv. Cluster munition sub-munition dispersal reported over urban area. Multiple casualties suspected. Use of cluster munitions against urban civilian areas notable escalation. Rishon Lezion population ~260,000.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.214,
+          31.769
+        ]
+      },
+      "properties": {
+        "name": "Jerusalem \u2014 Iranian Projectile Fragments (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "missile_strike",
+        "country": "Israel",
+        "status": "Struck (fragmentation)",
+        "actor": "Iran",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: Iranian projectile fragments impacted near Boyan Hasidic Synagogue, Jerusalem. Intercepted or fragmented munition scatter. High symbolic and political sensitivity given location. IDF confirmed fragments recovered. Jerusalem strikes represent significant escalation threshold crossed by Iran.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0,
+          31.72
+        ]
+      },
+      "properties": {
+        "name": "Beit Shemesh \u2014 Iranian Projectile Fragments (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "missile_strike",
+        "country": "Israel",
+        "status": "Struck (fragmentation)",
+        "actor": "Iran",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: Iranian projectile fragments impacted in Beit Shemesh, city west of Jerusalem. Intercepted or fragmented munition scatter. No major structural damage reported but residents sheltering. Population ~130,000.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.098,
+          32.999
+        ]
+      },
+      "properties": {
+        "name": "Nahariya \u2014 Hezbollah Rocket Direct Impact (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "rocket_strike",
+        "country": "Israel",
+        "status": "Struck",
+        "actor": "Hezbollah",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: Hezbollah rocket direct impact in Nahariya, coastal city in northern Israel. Building damage reported. Nahariya (pop. ~60,000) has been repeatedly targeted in previous Hezbollah escalations. Part of coordinated Hezbollah barrage supporting Iranian strikes. Western Galilee Hospital nearby.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.588,
+          33.28
+        ]
+      },
+      "properties": {
+        "name": "Khiam \u2014 IDF Strike on Hezbollah Weapons Depot (ISW Mar 16)",
+        "type": "damage",
+        "subtype": "airstrike",
+        "country": "Lebanon",
+        "status": "Struck",
+        "actor": "IDF (Israel Defense Forces)",
+        "event_date": "2026-03-16",
+        "notes": "ISW Mar 16 2026: IDF airstrike on Hezbollah weapons depot in Khiam, southern Lebanon. Large secondary explosions confirmed \u2014 indicative of significant munitions cache. Khiam has been a recurring IDF target due to Hezbollah's use of the area as a weapons storage and staging zone for rocket attacks on northern Israel. IDF continues ground operations in southern Lebanon buffer zone.",
+        "source": "ISW Iran Update Evening Special Report, March 16, 2026",
+        "last_updated": "2026-03-16"
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "war_start": "2026-02-28",
+  "last_updated": "2026-03-16",
+  "source": "ISW-CTP Iran Update Evening Special Report",
+  "daily": [
+    { "date": "2026-02-28", "us_israel_on_iran": 22, "iran_on_israel": null, "iran_on_gulf": null, "hezbollah_on_israel": null, "iraqi_militia_on_us": null },
+    { "date": "2026-03-01", "us_israel_on_iran": 18, "iran_on_israel": 9,    "iran_on_gulf": 2,    "hezbollah_on_israel": 7,  "iraqi_militia_on_us": 3  },
+    { "date": "2026-03-02", "us_israel_on_iran": 12, "iran_on_israel": 11,   "iran_on_gulf": 1,    "hezbollah_on_israel": 8,  "iraqi_militia_on_us": 5  },
+    { "date": "2026-03-03", "us_israel_on_iran": null, "iran_on_israel": null, "iran_on_gulf": null, "hezbollah_on_israel": null, "iraqi_militia_on_us": null },
+    { "date": "2026-03-04", "us_israel_on_iran": 9,  "iran_on_israel": 7,    "iran_on_gulf": 3,    "hezbollah_on_israel": 11, "iraqi_militia_on_us": 8  },
+    { "date": "2026-03-05", "us_israel_on_iran": 14, "iran_on_israel": 5,    "iran_on_gulf": 2,    "hezbollah_on_israel": 14, "iraqi_militia_on_us": 11 },
+    { "date": "2026-03-06", "us_israel_on_iran": 11, "iran_on_israel": 4,    "iran_on_gulf": 3,    "hezbollah_on_israel": 9,  "iraqi_militia_on_us": 7  },
+    { "date": "2026-03-07", "us_israel_on_iran": null, "iran_on_israel": null, "iran_on_gulf": null, "hezbollah_on_israel": null, "iraqi_militia_on_us": null },
+    { "date": "2026-03-08", "us_israel_on_iran": 8,  "iran_on_israel": 3,    "iran_on_gulf": 4,    "hezbollah_on_israel": 12, "iraqi_militia_on_us": 9  },
+    { "date": "2026-03-09", "us_israel_on_iran": 10, "iran_on_israel": 5,    "iran_on_gulf": 6,    "hezbollah_on_israel": 16, "iraqi_militia_on_us": 13 },
+    { "date": "2026-03-10", "us_israel_on_iran": 13, "iran_on_israel": 4,    "iran_on_gulf": 5,    "hezbollah_on_israel": 18, "iraqi_militia_on_us": 15 },
+    { "date": "2026-03-11", "us_israel_on_iran": null, "iran_on_israel": null, "iran_on_gulf": null, "hezbollah_on_israel": null, "iraqi_militia_on_us": null },
+    { "date": "2026-03-12", "us_israel_on_iran": 11, "iran_on_israel": 6,    "iran_on_gulf": 3,    "hezbollah_on_israel": 19, "iraqi_militia_on_us": 17 },
+    { "date": "2026-03-13", "us_israel_on_iran": 9,  "iran_on_israel": 5,    "iran_on_gulf": 4,    "hezbollah_on_israel": 21, "iraqi_militia_on_us": 18 },
+    { "date": "2026-03-14", "us_israel_on_iran": 12, "iran_on_israel": 7,    "iran_on_gulf": 4,    "hezbollah_on_israel": 20, "iraqi_militia_on_us": 20 },
+    { "date": "2026-03-15", "us_israel_on_iran": 14, "iran_on_israel": 5,    "iran_on_gulf": 3,    "hezbollah_on_israel": 22, "iraqi_militia_on_us": 21 },
+    { "date": "2026-03-16", "us_israel_on_iran": 15, "iran_on_israel": 6,    "iran_on_gulf": 4,    "hezbollah_on_israel": 23, "iraqi_militia_on_us": 24 }
+  ],
+  "gulf_intercepts_mar16": {
+    "Bahrain":      { "drones": 3,  "missiles": 4  },
+    "Kuwait":       { "drones": 4,  "missiles": 0  },
+    "Qatar":        { "drones": 10, "missiles": 13 },
+    "Saudi Arabia": { "drones": 43, "missiles": 0  },
+    "UAE":          { "drones": 21, "missiles": 6  }
+  },
+  "degradation": {
+    "missile_launchers_destroyed_pct": 70,
+    "irgc_casualties_est": 10000,
+    "tehran_lec_stations_struck": 16,
+    "tehran_lec_stations_total": 69,
+    "hormuz_incidents_since_mar1": 20
+  },
+  "events": [
+    {
+      "date": "2026-02-28",
+      "actor": "US/Israel",
+      "target": "Fordow Enrichment Facility, Iran",
+      "type": "Airstrike",
+      "outcome": "Confirmed destroyed",
+      "notes": "B-2 bunker-busters employed. Major blow to enrichment program."
+    },
+    {
+      "date": "2026-02-28",
+      "actor": "US/Israel",
+      "target": "IRGC Aerospace Force HQ, Tehran",
+      "type": "Airstrike",
+      "outcome": "Confirmed destroyed",
+      "notes": "Simultaneous strikes on launch control and command nodes."
+    },
+    {
+      "date": "2026-03-01",
+      "actor": "Iran",
+      "target": "Tel Aviv metropolitan area, Israel",
+      "type": "Ballistic missile barrage",
+      "outcome": "Partially intercepted — 3 impacts reported",
+      "notes": "Shahed-136 and Fattah-1 mix; Iron Dome and Arrow-3 engaged."
+    },
+    {
+      "date": "2026-03-01",
+      "actor": "Iran",
+      "target": "US Al Udeid Air Base, Qatar",
+      "type": "Drone/missile strike",
+      "outcome": "Intercepted by Patriot PAC-3",
+      "notes": "13 ballistic missiles, ~10 drones. No reported US casualties."
+    },
+    {
+      "date": "2026-03-04",
+      "actor": "US/Israel",
+      "target": "Natanz Underground Complex, Iran",
+      "type": "Airstrike",
+      "outcome": "Significant damage confirmed",
+      "notes": "Secondary explosions consistent with centrifuge hall destruction."
+    },
+    {
+      "date": "2026-03-05",
+      "actor": "US/Israel",
+      "target": "IRGC Ground Forces Command, Tehran",
+      "type": "Airstrike",
+      "outcome": "Confirmed destroyed",
+      "notes": "ISW estimates ~2,000 IRGC casualties in first week of conflict."
+    },
+    {
+      "date": "2026-03-09",
+      "actor": "Iran",
+      "target": "Saudi Aramco Abqaiq facility",
+      "type": "Drone strike",
+      "outcome": "6 drones intercepted, 2 impacts — partial damage",
+      "notes": "Oil output reduced ~15% temporarily. Saudi Patriot batteries engaged."
+    },
+    {
+      "date": "2026-03-10",
+      "actor": "Hezbollah",
+      "target": "Northern Israel settlements",
+      "type": "Rocket barrage",
+      "outcome": "Multiple impacts; Iron Dome intercept rate ~85%",
+      "notes": "18 Katyusha rockets and 3 Kornet ATGMs. Civilian casualties reported."
+    },
+    {
+      "date": "2026-03-12",
+      "actor": "US/Israel",
+      "target": "Tehran Law Enforcement Command stations (16 of 69)",
+      "type": "Precision airstrike",
+      "outcome": "All 16 confirmed destroyed",
+      "notes": "Targeting regime internal security infrastructure to reduce crackdown capacity."
+    },
+    {
+      "date": "2026-03-14",
+      "actor": "Iraqi militia (KH/PMF)",
+      "target": "US forces at Al-Assad Air Base, Iraq",
+      "type": "Rocket/drone attack",
+      "outcome": "2 personnel wounded; several drones destroyed",
+      "notes": "Kataib Hezbollah claimed; US HIMARS counter-battery response followed."
+    },
+    {
+      "date": "2026-03-16",
+      "actor": "Iran",
+      "target": "Israel (multiple cities)",
+      "type": "Ballistic missile + drone barrage",
+      "outcome": "6 confirmed barrages; partial intercepts",
+      "notes": "Largest single-day Iranian strike package since conflict began."
+    },
+    {
+      "date": "2026-03-16",
+      "actor": "Saudi Arabia",
+      "target": "Inbound Iranian drones",
+      "type": "Air defense intercept",
+      "outcome": "43 drones intercepted",
+      "notes": "Patriot PAC-2/3 and Hawk systems engaged. No Saudi territory impacted."
+    }
+  ]
+}
